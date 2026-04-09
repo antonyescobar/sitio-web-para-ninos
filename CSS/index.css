@@ -86,12 +86,14 @@
     text-align: center;
     justify-content: center;
     height: 30vh;
+    padding: 20px;
+    margin: 20px 0;
 }
 
 .producto h2 {
     font-size: 30px;
     color: #0f0f0f;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /*-----------------------------¡Elige tu Pop-it!--------------------------------------------*/
@@ -143,12 +145,13 @@
 .reglas h2 {
     font-size: 30px;
     color: #0f0f0f;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .reglas img {
     width: 550px;
     margin-left: 100px;
+    margin-top: 10px;
 }
 
 /*-----------------------------FOOTER--------------------------------------------*/
@@ -173,9 +176,12 @@ footer a {
     .header {
         flex-direction: column;
         align-items: flex-start;
+        align-items: center;
+        gap: 20px;
     }
 
     .menu {
+        text-align: center;
         flex-direction: column;
         gap: 20px;
         margin-top: 20px;
@@ -195,6 +201,7 @@ footer a {
     .productos {
         flex-direction: column;
         gap: 50px;
+        padding:  60px;
     }
 
     .reglas {
@@ -206,6 +213,10 @@ footer a {
     .reglas img {
         width: 100%;
         margin-left: 0;
+    }
+
+    .card img {
+        width: 100px;
     }
 }
 
