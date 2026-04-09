@@ -34,7 +34,7 @@
 /*-----------------------------HEADER--------------------------------------------*/
 
 .pop {
-    background-image: url(background.png);
+    background-image: url(../IMG/background.png);
     background-repeat: no-repeat;
     background-position: right 100px center;
     width: 100%;
@@ -133,7 +133,7 @@
 /*-----------------------------REGLAS DE JUEGO--------------------------------------------*/
 
 .reglas {
-    background-image: url(bg-grid.png);
+    background-image: url(../IMG/bg-grid.png);
     background-repeat: no-repeat;
     background-position: 50px center;
     background-size: cover;
